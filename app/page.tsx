@@ -9,9 +9,9 @@ import { fetchEmailOctopusContacts } from "./actions"
 export default function CineClubSender() {
   // Configuración fija
   const config = {
-    apiUrl: "http://localhost:8080",
-    apiKey: "94fd843e9c33423136b47720ab6ca82458df822ad0490861fa7733bcb48cd6ef",
-    instanceName: "nro_de_miguel",
+    apiUrl: process.env.NEXT_PUBLIC_API_URL,
+    apiKey: process.env.NEXT_PUBLIC_API_KEY,
+    instanceName: process.env.NEXT_PUBLIC_INSTANCE_NAME,
   }
 
   const [message, setMessage] = useState("")
