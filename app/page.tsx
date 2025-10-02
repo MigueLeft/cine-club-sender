@@ -15,7 +15,7 @@ export default function CineClubSender() {
   }
 
   const [message, setMessage] = useState("")
-  const [phoneNumbers, setPhoneNumbers] = useState("584140551969\n5491112345678")
+  const [phoneNumbers, setPhoneNumbers] = useState("")
   const [sending, setSending] = useState(false)
   const [apiStatus, setApiStatus] = useState(null)
   const [instanceStatus, setInstanceStatus] = useState(null)
