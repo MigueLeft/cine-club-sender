@@ -525,7 +525,7 @@ export default function CineClubSender() {
                 onChange={(e) => setPhoneNumbers(e.target.value)}
                 className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent resize-none font-mono text-sm bg-input text-foreground"
                 rows="6"
-                placeholder="584140551969&#10;5491112345678&#10;5215512345678"
+                // placeholder="584140551969&#10;5491112345678&#10;5215512345678"
               />
               <p className="text-sm text-muted-foreground mt-2">
                 Un número por línea • Total: {phoneNumbers.split("\n").filter((n) => n.trim()).length} números
